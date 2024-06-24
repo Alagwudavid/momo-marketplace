@@ -1,3 +1,19 @@
+import f1 from "../assets/laptop.jpg"
+import f2 from "../assets/phone.jpg"
+import f3 from "../assets/cooker.jpg"
+import f4 from "../assets/bags.jpg"
+import f5 from "../assets/clothe.jpg"
+import f6 from "../assets/shoe.jpg"
+import f7 from "../assets/generator.jpg"
+import f8 from "../assets/oled.jpg"
+
+import o1 from "../assets/Artboard_1.png"
+import o2 from "../assets/Artboard_2.png"
+import o3 from "../assets/Artboard_3.png"
+import o4 from "../assets/Artboard_4.png"
+import o5 from "../assets/Artboard_5.png"
+import o6 from "../assets/Artboard_6.png"
+
 export const categories = [
     {id: 1, name: 'Supermarket'},
     {id: 2, name: 'Fashion'},
@@ -29,21 +45,21 @@ export const categoryChild = [
 ]
 
 export const FeaturedProducts = [
-    {id: 1, storeName: "Lg Official", name: 'Hp Espiron \'15inch aspire 2024 model student laptop', price: '$7,500', offer: '20%', bg: 'src/assets/laptop.jpg'},
-    {id: 2, storeName: "Apple Store", name: 'iPhone 15', price: '$7,500', offer: '10%', bg: 'src/assets/phone.jpg'},
-    {id: 3, storeName: "Nexus Electronics", name: 'Nexus Combo Cooker', price: '$101,830', offer: '12%', bg: 'src/assets/cooker.jpg'},
-    {id: 4, storeName: "Angel global", name: 'Hand bags', price: '$67,200', offer: '50%', bg: 'src/assets/bags.jpg'},
-    {id: 5, storeName: "Prime Luxury's", name: 'Baby up&down', price: '$7,500', offer: '12%', bg: 'src/assets/clothe.jpg'},
-    {id: 6, storeName: "Nike Official", name: 'Nike Fly 2023', price: '$7,500', offer: '', bg: 'src/assets/shoe.jpg'},
-    {id: 7, storeName: "Nexus Electronics", name: 'Generator 3200HP', price: '$7,500', offer: '', bg: 'src/assets/generator.jpg'},
-    {id: 8, storeName: "Samsung official", name: 'Samsung 42\'inch O\'led TV', price: '$117,500', offer: '5%', bg: 'src/assets/oled.jpg'}
+    {id: 1, storeName: "Lg Official", name: 'Hp Espiron \'15inch aspire 2024 model student laptop', price: '$7,500', offer: '20%', bg: f1},
+    {id: 2, storeName: "Apple Store", name: 'iPhone 15', price: '$7,500', offer: '10%', bg: f2},
+    {id: 3, storeName: "Nexus Electronics", name: 'Nexus Combo Cooker', price: '$101,830', offer: '12%', bg: f3},
+    {id: 4, storeName: "Angel global", name: 'Hand bags', price: '$67,200', offer: '50%', bg: f4},
+    {id: 5, storeName: "Prime Luxury's", name: 'Baby up&down', price: '$7,500', offer: '12%', bg: f5},
+    {id: 6, storeName: "Nike Official", name: 'Nike Fly 2023', price: '$7,500', offer: '', bg: f6},
+    {id: 7, storeName: "Nexus Electronics", name: 'Generator 3200HP', price: '$7,500', offer: '', bg: f7},
+    {id: 8, storeName: "Samsung official", name: 'Samsung 42\'inch O\'led TV', price: '$117,500', offer: '5%', bg: f8}
 ]
 
 export const Offers = [
-    {id: 1, name: 'Brand Deals', bg: 'src/assets/Artboard_1.png'},
-    {id: 2, name: 'Back-2-School Sales', bg: 'src/assets/Artboard_2.png'},
-    {id: 3, name: 'Grocery Deals', bg: 'src/assets/Artboard_3.png'},
-    {id: 4, name: 'Accessories & Gadgets Deal', bg: 'src/assets/Artboard_4.png'},
-    {id: 5, name: 'School Essentials', bg: 'src/assets/Artboard_5.png'},
-    {id: 6, name: 'Miscellenous Deals', bg: 'src/assets/Artboard_6.png'}
+    {id: 1, name: 'Brand Deals', bg: o1},
+    {id: 2, name: 'Back-2-School Sales', bg: o2},
+    {id: 3, name: 'Grocery Deals', bg: o3},
+    {id: 4, name: 'Accessories & Gadgets Deal', bg: o4},
+    {id: 5, name: 'School Essentials', bg: o5},
+    {id: 6, name: 'Miscellenous Deals', bg: o6}
 ]
