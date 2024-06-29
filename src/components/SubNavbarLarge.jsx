@@ -14,9 +14,9 @@ export const categories = [
     { id: '2', name: 'For official stores', categoryId: '1' },
     { id: '3', name: 'As a guest', categoryId: '2' },
     { id: '4', name: 'As a verified user', categoryId: '2' },
-    { id: '5', name: 'Universities', categoryId: '3' },
-    { id: '6', name: 'Polytechnics', categoryId: '3' },
-    { id: '7', name: 'College', categoryId: '3' },
+    { id: '5', name: 'Location 1', categoryId: '3' },
+    { id: '6', name: 'Location 2', categoryId: '3' },
+    { id: '7', name: 'Location 3', categoryId: '3' },
     { id: '8', name: 'Legals', categoryId: '4' },
     { id: '9', name: 'About-us', categoryId: '4' },
     { id: '10', name: 'Help-Center', categoryId: '5' },
@@ -26,16 +26,16 @@ export const categories = [
 
   export const coItems = [
   
-    { id: '14', name: 'University of Nigeria', subcategoryId: '5' },
-    { id: '15', name: 'University of Lagos', subcategoryId: '5' },
-    { id: '16', name: 'Lagos poly', subcategoryId: '6' },
-    { id: '17', name: 'Poly', subcategoryId: '6' },
+    { id: '14', name: 'one', subcategoryId: '5' },
+    { id: '15', name: 'two', subcategoryId: '5' },
+    { id: '16', name: 'three', subcategoryId: '6' },
+    { id: '17', name: 'four', subcategoryId: '6' },
     { id: '18', name: 'Others', subcategoryId: '6' },
   
     // Clothing & Accessories
-    { id: '19', name: 'Futo', subcategoryId: '7' },
-    { id: '20', name: 'Kano College', subcategoryId: '7' },
-    { id: '21', name: 'Private Poly', subcategoryId: '7' },
+    { id: '19', name: 'five', subcategoryId: '7' },
+    { id: '20', name: 'six', subcategoryId: '7' },
+    { id: '21', name: 'seven', subcategoryId: '7' },
   
     // Food & Beverages
     { id: '34', name: 'Facebook', subcategoryId: '12' },

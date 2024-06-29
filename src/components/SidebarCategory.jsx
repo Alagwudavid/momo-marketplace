@@ -168,7 +168,7 @@ export const categories = [
           </ul>
         </div>
         <div className='relative border-[1px] rounded-lg mt-5 px-6 py-2 text-[14px] block text-center'>
-          <div className='relative'>&copy; 2024 name llc,</div>
+          <div className='relative'>&copy; 2024 Momo Mini-marketplace,</div>
           <span>by <a href='https://www.wynx.vercel.app' className='hover:text-blue-700'>wynx softwares llc</a></span>
           <ul className='flex flex-row flex-wrap gap-1 items-center'>
             <li className='hover:underline'>About</li>
